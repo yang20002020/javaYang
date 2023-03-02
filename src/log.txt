@@ -1,3 +1,4 @@
 <it_001>
 Scanner的应用
-
+<it_002>
+Random
