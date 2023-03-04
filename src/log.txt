@@ -6,3 +6,7 @@ Random
 ArrayList
 <it_004>
 接口和继承
+<it_005>
+Date
+<it_006>
+exception
