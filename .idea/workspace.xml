@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3defc35d-8d3b-4222-99e3-ba9a994375c7" name="变更" comment="Random">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it_003/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it_003/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_004/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_004/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_004/Jumpping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_004/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +40,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/26286/Desktop/javaDemo/itYang",
+    "last_opened_file_path": "C:/Users/26286/Desktop/javaDemo/javaYang/src/it_004",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_004" />
       <recent name="C:\Users\26286\Desktop\javaDemo\itYang\src\it_003" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.StudentManager">
+  <component name="RunManager" selected="应用程序.Test">
     <configuration name="StudentManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it_003.StudentManager" />
       <module name="itYang" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it_003.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it_004.Test" />
+      <module name="itYang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it_004.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.StudentManager" />
         <item itemvalue="应用程序.it_002.test" />
         <item itemvalue="应用程序.test" />
@@ -107,6 +124,7 @@
       <workItem from="1677766278828" duration="1064000" />
       <workItem from="1677767444825" duration="1362000" />
       <workItem from="1677803137517" duration="1665000" />
+      <workItem from="1677912119622" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="scanner">
       <created>1677767204075</created>

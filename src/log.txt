@@ -2,3 +2,7 @@
 Scanner的应用
 <it_002>
 Random
+<it_003>
+ArrayList
+<it_004>
+接口和继承
