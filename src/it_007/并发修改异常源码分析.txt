@@ -1,0 +1,63 @@
+
+
+
+
+//接口
+public interface List<E> extends Collection<E> {
+
+    Iterator<E> iterator();
+    boolean add(E e);
+}
+//实现类
+ public abstract class AbstractList<E>  implements List<E>{
+     protected transient int modCount = 0;
+     ....
+ }
+//实现接口的类, 子类
+public class ArrayList<E> extends AbstractList<E>  implements List<E>{
+
+    // Iterator<String> it= list.iterator();调用下面的方法
+     public Iterator<E> iterator() {
+            return new Itr();
+     }
+   //导致modCount++
+    public boolean add(E e) {
+         modCount++;
+         add(e, elementData, size);
+         return true;
+    }
+}
+
+//类 Itr
+ private class Itr implements Iterator<E> {
+        int cursor;       // index of next element to return
+        int lastRet = -1; // index of last element returned; -1 if no such
+        int expectedModCount = modCount;
+        /*
+         modCount 实际修改次数
+         expectedModCount 预期修改次数
+        */
+
+        Itr() {}
+        // Iterator<String> it= list.iterator();
+        //  String s=it.next(); 调用next函数
+        public E next() {
+            //调用函数
+            checkForComodification();
+            int i = cursor;
+            if (i >= size)
+                throw new NoSuchElementException();
+            Object[] elementData = ArrayList.this.elementData;
+            if (i >= elementData.length)
+                throw new ConcurrentModificationException();
+            cursor = i + 1;
+            return (E) elementData[lastRet = i];
+        }
+
+
+        final void checkForComodification() {
+            if (modCount != expectedModCount)
+                throw new ConcurrentModificationException();
+        }
+    }
+
