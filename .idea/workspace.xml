@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3defc35d-8d3b-4222-99e3-ba9a994375c7" name="变更" comment="Date">
-      <change afterPath="$PROJECT_DIR$/src/it_006/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it_006/scoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it_006/test.java" afterDir="false" />
+    <list default="true" id="3defc35d-8d3b-4222-99e3-ba9a994375c7" name="变更" comment="并发修改异常">
+      <change afterPath="$PROJECT_DIR$/src/it_008/hashset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_008/hashset元素唯一性 源码分析.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it_008/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/log.txt" afterDir="false" />
     </list>
@@ -39,20 +39,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/26286/Desktop/javaDemo/javaYang/src/it_006",
+    "last_opened_file_path": "C:/Users/26286/Desktop/it/javaYang",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_007" />
       <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_006" />
       <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_005" />
       <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_004" />
       <recent name="C:\Users\26286\Desktop\javaDemo\itYang\src\it_003" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_008" />
+      <recent name="C:\Users\26286\Desktop\javaDemo\javaYang\src\it_006" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.it_006.test">
+  <component name="RunManager" selected="应用程序.test">
     <configuration name="StudentManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it_003.StudentManager" />
       <module name="itYang" />
@@ -72,19 +77,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it_004.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="it_002.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it_002.test" />
-      <module name="itYang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it_002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it_007.test" />
+      <module name="itYang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it_007.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.test" />
         <item itemvalue="应用程序.it_006.test" />
         <item itemvalue="应用程序.it_005.test" />
         <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.StudentManager" />
-        <item itemvalue="应用程序.it_002.test" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +144,9 @@
       <workItem from="1677766278828" duration="1064000" />
       <workItem from="1677767444825" duration="1362000" />
       <workItem from="1677803137517" duration="1665000" />
-      <workItem from="1677912119622" duration="2831000" />
+      <workItem from="1677912119622" duration="3790000" />
+      <workItem from="1678002434639" duration="4187000" />
+      <workItem from="1678063152671" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="scanner">
       <created>1677767204075</created>
@@ -169,7 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677913976917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="exception">
+      <created>1677914987231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677914987231</updated>
+    </task>
+    <task id="LOCAL-00006" summary="exception">
+      <created>1678004349715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678004349716</updated>
+    </task>
+    <task id="LOCAL-00007" summary="并发修改异常">
+      <created>1678067483877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678067483877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +219,8 @@
     <MESSAGE value="Random" />
     <MESSAGE value="接口和继承" />
     <MESSAGE value="Date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date" />
+    <MESSAGE value="exception" />
+    <MESSAGE value="并发修改异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发修改异常" />
   </component>
 </project>
